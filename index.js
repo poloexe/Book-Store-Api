@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(
   cors({
-    origin: "https://book-store-api-a2om.onrender.com",
+    origin: "https://book-store-seven-gilt.vercel.app",
     methods: ["GET", "POST", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type"],
   })
