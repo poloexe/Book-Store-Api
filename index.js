@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const app = express();
 import dotenv from "dotenv";
 dotenv.config();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8000;
 const URI = process.env.MONGO_URI;
 import bookRouter from "./routes/bookRouter.js";
 import notFound from "./utils/notFound.js";
